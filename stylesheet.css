@@ -20,7 +20,7 @@
     src: url("FoxJumps.otf") format("opentype");
 }
 
-.Player-username:first-of-type {
+.Player[data-player-id="1197366"]:first-child {
     color: orange;
     font-family: FoxJumps;
     font-size: 22pt;
