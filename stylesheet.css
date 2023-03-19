@@ -1,3 +1,9 @@
+@font-face {
+    font-family: FoxJumps;
+    src: url("FoxJumps.otf") format("opentype");
+}
+
 .Player-username {
     color: pink;
+    font-family: FoxJumps;
 }
