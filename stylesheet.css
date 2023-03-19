@@ -1,9 +1,14 @@
+body {
+    background-image: url("wallpaper.jpg");
+}
+
 @font-face {
     font-family: FoxJumps;
     src: url("FoxJumps.otf") format("opentype");
 }
 
 .Player-username {
-    color: pink;
+    color: orange;
     font-family: FoxJumps;
+    font-size: 22pt;
 }
