@@ -3,28 +3,17 @@
     background-size: 100%;
 }*/
 
-#variant-container::before {
-    content: "";
-    position: absolute;
-    top: 0; 
-    left: 0;
-    width: 100%; 
-    height: 100%;  
-    opacity: .4; 
-    background: url("wallpaper.jpg");
-    background-size:100%;
+body.accessible #main-content, body.accessible #main-content>div, body.accessible body, body.accessible html, body.dark #main-content, body.dark #main-content>div, body.dark body, body.dark html {
+    background-color: rgba(26,26,26,0.4) !important;
 }
 
-#default-variant-container::before {
-    content: "";
-    position: absolute;
-    top: 0; 
-    left: 0;
-    width: 100%; 
-    height: 100%;  
-    opacity: .4; 
-    background: url("wallpaper.jpg");
-    background-size:100%;
+body {
+    background-image: url(wallpaper.jpg);
+    background-size: cover;
+}
+
+.Card:has(.about-container) {
+    visibility: hidden;
 }
 
 @font-face {
