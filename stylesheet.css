@@ -24,7 +24,7 @@ body {
 }
 
 .RatingsChart .chart text {
-    color: rgba(220, 220, 220, 1) !important;
+    fill: rgba(220, 220, 220, 1) !important;
 }
 
 @font-face {
