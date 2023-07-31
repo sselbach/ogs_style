@@ -2,12 +2,12 @@
     background-image: url("wallpaper.jpg");
     background-size: 100%;
 }*/
-body.accessible #main-content, body.dark #main-content {
+body.accessible #main-content, body.dark #main-content, body.light #main-content {
     background-color: rgba(0, 0, 0, 0) !important;
     color: rgba(220, 220, 220, 1) !important;
 }
 
-body.accessible #main-content>div, body.accessible body, body.accessible html, body.dark #main-content>div, body.dark body, body.dark html {
+body.accessible #main-content>div, body.accessible body, body.accessible html, body.dark #main-content>div, body.dark body, body.dark html, body.light #main-content>div, body.light body, body.light html {
     background-color: rgba(26,26,26,0.4) !important;
     color: rgba(220, 220, 220, 1) !important;
 }
