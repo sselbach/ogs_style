@@ -10,6 +10,7 @@ body.accessible #main-content, body.accessible #main-content>div, body.accessibl
 body {
     background-image: url(wallpaper.jpg);
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .Card:has(.about-container) {
